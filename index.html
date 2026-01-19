@@ -4,9 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
-<body>
+<body class="flex justify-center items-center min-h-screen bg-gray-200">
+
+    <div class="grid grid-rows-6 grid-cols-4 gap-2 bg-slate-700 w-[260px] p-2.5 rounded-xl">
+
+        
+        <div class="col-span-4 bg-black text-white text-2xl text-right px-4 py-3 rounded">
+            0
+        </div>
+
+        
+        <div class="bg-orange-500 text-white text-center py-3 rounded">C</div>
+        <div class="bg-orange-500 text-white text-center py-3 rounded">+/-</div>
+        <div class="bg-orange-500 text-white text-center py-3 rounded">%</div>
+        <div class="bg-orange-500 text-white text-center py-3 rounded">÷</div>
+
+        
+        <div class="bg-black text-white text-center py-3 rounded">7</div>
+        <div class="bg-black text-white text-center py-3 rounded">8</div>
+        <div class="bg-black text-white text-center py-3 rounded">9</div>
+        <div class="bg-orange-500 text-white text-center py-3 rounded">×</div>
+
+        
+        <div class="bg-black text-white text-center py-3 rounded">4</div>
+        <div class="bg-black text-white text-center py-3 rounded">5</div>
+        <div class="bg-black text-white text-center py-3 rounded">6</div>
+        <div class="bg-orange-500 text-white text-center py-3 rounded">-</div>
+
+        
+        <div class="bg-black text-white text-center py-3 rounded">1</div>
+        <div class="bg-black text-white text-center py-3 rounded">2</div>
+        <div class="bg-black text-white text-center py-3 rounded">3</div>
+        <div class="bg-orange-500 text-white text-center py-3 rounded">+</div>
+
+        
+        <div class="col-span-2 bg-black text-white py-3 pl-4 rounded">
+            0
+        </div>
+        <div class="bg-black text-white text-center py-3 rounded">.</div>
+        <div class="bg-orange-500 text-white text-center py-3 rounded">=</div>
+
+    </div>
+
+</body>
+<!-- <body>
     <div class="grid-container">
         <div class="display">0</div>
             <div class="operator">C</div>
@@ -30,5 +75,5 @@
             <div class="operator">=</div>
         
     </div>
-</body>
+</body> -->
 </html>
